@@ -3,9 +3,9 @@ layout: default
 title: Old stuff posts
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+	<ul class="posts1">
 
-	  {% for post in site.posts1 %}
+	  {% for post1 in site.posts1 %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
