@@ -5,7 +5,7 @@ title: Old stuff posts
 	<h1>{{ page.title }}</h1>
 	<ul class="posts1">
 
-	  {% for post1 in site.posts1 %}
+	  {% for post1 in site.posts %}
 	    <li><span>{{ post1.date | date_to_string }}</span> » <a href="{{ post1.url }}" title="{{ post1.title }}">{{ post1.title }}</a></li>
 	  {% endfor %}
 	</ul>
